@@ -2,11 +2,15 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-30 21:52:40
+* @Last Modified time: 2019-07-30 23:39:35
 */
 
 a{
     color: #999;
+}
+
+img{
+    width:98%;
 }
 
 .post-p{
