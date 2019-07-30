@@ -47,18 +47,18 @@
         {% endcomment %}
           <div class="fade">
           <h2 class="default-content" id="content">{{ content }}</h2>
-            <div class="fade">
+            <div class="fade">{% comment %}
             {% if page.layout == 'post' %}
             <h6 class="tags">标签:</h6>
-            {% endif %}
+            {% endif %}{% endcomment %}
             <h6 class="more"></h6>
-            <span class="span-center"><a class="footer-linkbig" id="more" href="/daily/wallpaper.html">更多图片</a></span>
+            <span class="span-center"><a class="footer-linkbig" id="more" href="https://{{ site.url }}{{ site.baseurl }}">返回主页</a></span>
             <span style="color:#999999;text-align:center;display: block;">
-             <a class="footer-link" href="http://linker.ml/daily/about.html">关于</a>
+             <a class="footer-link" href="https://{{ site.url }}{{ site.baseurl }}/friends.html">友链</a>
              |
-             <a class="footer-link" href="http://linker.ml/daily/ss.html">源</a>
+             <a class="footer-link" href="https://{{ site.url }}{{ site.baseurl }}/about.html">关于</a>
              |
-             <a class="footer-link" href="http://linker.ml/daily/donate.html">捐赠</a>
+             <a class="footer-link" href="https://{{ site.url }}{{ site.baseurl }}/tags.html">标签</a>
             </span>
              <h6 style="color: #999999;text-align:center">Theme <a href="https://github.com/link9596/txt">TXT</a>.By <a href="https://atlinker.cn">Link</a>.</h6>
              <span class="sitetime">Already <span style="text-align:center" id="sitetime"></span> days.</span>

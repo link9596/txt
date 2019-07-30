@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-30 21:36:57
+* @Last Modified time: 2019-07-30 21:52:40
 */
 
 a{
@@ -19,7 +19,7 @@ a{
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
     -webkit-transition: all .5s cubic-bezier(.4, 0, .2, 1), box-shadow .2s cubic-bezier(.4, 0, 1, 1);
     transition: all .5s cubic-bezier(.4, 0, .2, 1), box-shadow .2s cubic-bezier(.4, 0, 1, 1);
-    margin-bottom: 0 -15px 50px -15px;
+    margin: 0 -12px 50px -12px;
 }
 
 .post-p:hover{
@@ -86,6 +86,50 @@ line-height:45px;
     font-weight:bold;
 }
 
+.tags-chip{
+    display:inline-block;
+    height:32px;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:2px 0;
+    white-space:nowrap;
+    cursor:pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    background-color:#e0e0e0;
+    border-radius:16px;
+    -webkit-transition:-webkit-box-shadow .25s cubic-bezier(.4,0,.2,1);transition:-webkit-box-shadow .25s cubic-bezier(.4,0,.2,1);
+    transition:box-shadow .25s cubic-bezier(.4,0,.2,1);transition:box-shadow .25s cubic-bezier(.4,0,.2,1),-webkit-box-shadow .25s cubic-bezier(.4,0,.2,1);
+    will-change:box-shadow;
+}
+
+.chip-icon{
+    position:relative;
+    display:inline-block;
+    width:32px;
+    height:32px;
+    margin-right:-4px;
+    overflow:hidden;
+    font-size:18px;
+    line-height:32px;
+    color:#fff;
+    text-align:center;
+    vertical-align:middle;
+    background-color:#989898;
+    border-radius:50%;
+}
+
+.chip-title{
+display:inline-block;
+height:32px;
+padding-right:12px;
+padding-left:12px;
+font-size:14px;
+line-height:32px;
+vertical-align:middle;
+}
 
 @-webkit-keyframes fade-in-down {
   from {
