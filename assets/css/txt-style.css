@@ -2,8 +2,12 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-30 21:03:20
+* @Last Modified time: 2019-07-30 21:06:55
 */
+
+a{
+    color: #999;
+}
 
 .post-p{
     font-size:15px;
