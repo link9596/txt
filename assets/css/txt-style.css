@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-30 20:38:07
+* @Last Modified time: 2019-07-30 20:43:47
 */
 
 .post-p{
@@ -18,16 +18,16 @@
 
 .post-link{
     color: #ff4081;
-    font-size: 32px;
+    font-size: 24px;
     text-decoration: none;
 }
 
 .post-more{
-    line-height: 20px;
+    line-height: 35px;
 }
 
 .post-meta{
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .footer-link{
