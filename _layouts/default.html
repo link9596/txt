@@ -29,10 +29,10 @@
 
 <title>{{ page-title }}</title>
 <body>
+   {% comment %}
    <div class="fade">
-      <h1 style="color: #999999;text-align:center;" id="title">{{ page-title }}</h1>
-      <div class="fade">
-      {% comment %}
+        <h1 style="color: #999999;text-align:center;" id="title">{{ page-title }}</h1>
+        <div class="fade">
         <h6 style="color: #999999;text-align:center" id="author">
         {{ page-tagline }}
         {% if page.layout == 'post' %}
@@ -64,7 +64,7 @@
              <span class="sitetime">Already <span style="text-align:center" id="sitetime"></span> days.</span>
              </div>
            </div>
-     </div>
+     <!--</div>-->
       <script src = '/js/inst.js' data-no-instant></script>
          <script data-no-instant>InstantClick.init();</script>
 </body>
