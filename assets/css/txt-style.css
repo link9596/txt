@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-30 21:06:55
+* @Last Modified time: 2019-07-30 21:14:13
 */
 
 a{
@@ -86,15 +86,31 @@ line-height:45px;
     font-weight:bold;
 }
 
+
 @-webkit-keyframes fade-in-down {
   from {
     opacity: 0;
     -webkit-transform: translateY(30px);
-     }
+  }
   to {
     opacity: 1;
     -webkit-transform: translateY(0);
-    }
+  }
+}
+
+@keyframes fade-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(30px); }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade{
+  -webkit-animation: fade-in-down 0.5s;
+  animation: fade-in-down 0.5s;
 }
 
 .h1,.h2,.h3,.h4,.lead,body,h1,h2,h3,h4{
@@ -103,7 +119,7 @@ line-height:45px;
 
 @media (min-width: 767px) {
 body{
- padding-left:200px;
- padding-right:200px;
+ padding-left:500px;
+ padding-right:500px;
  }
 }
