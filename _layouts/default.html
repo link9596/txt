@@ -29,7 +29,7 @@
 
 <title>{{ page-title }}</title>
 <body>
-   {% comment %}
+   {% if page.layout != 'post' %}
    <div class="fade">
         <h1 style="color: #999999;text-align:center;" id="title">{{ page-title }}</h1>
         <div class="fade">
@@ -44,15 +44,15 @@
             {% endif %}
         {% endif %}
                     </h6>
-        {% endcomment %}
+        {% endif %}
           <div class="fade">
           <h2 class="default-content" id="content">{{ content }}</h2>
             <div class="fade">{% comment %}
             {% if page.layout == 'post' %}
             <h6 class="tags">标签:</h6>
             {% endif %}{% endcomment %}
-            <h6 class="more"></h6>{% if page.layout == 'home' %}<div style="display:none">{% endif %}
-            <span class="span-center"><a class="footer-linkbig" id="more" href="https://{{ site.url }}{{ site.baseurl }}">返回主页</a></span>{% if page.layout == 'home' %}</div>{% endif %}
+            <h6 class="more"></h6>{% if page.layout != 'home' %}
+            <span class="span-center"><a class="footer-linkbig" id="more" href="https://{{ site.url }}{{ site.baseurl }}">返回主页</a></span>{% endif %}
             <span style="color:#999999;text-align:center;display: block;">
              <a class="footer-link" href="https://{{ site.url }}{{ site.baseurl }}/friends.html">友链</a>
              |
