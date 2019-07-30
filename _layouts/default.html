@@ -39,12 +39,6 @@ body{
       {% assign page-title = site.title | escape %}
     {% endif %}
 
-<title>{{ page-title }}</title>
-<body>
-   <div class="fade">
-      <h1 style="color: #999999;text-align:center;" id="title">{{ page-title }}</h1>
-      <div class="fade">
-        <h6 style="color: #999999;text-align:center" id="author">
     {% if page.layout == 'home' %}
       {% assign page-tagline = site.description | default: site.github.project_tagline | escape %}
     {% endif %}
@@ -57,7 +51,13 @@ body{
     {% if page.layout == 'tags' %}
       {% assign page-tagline = page.tagline | escape  %}
     {% endif %}
-    </h6>
+
+<title>{{ page-title }}</title>
+<body>
+   <div class="fade">
+      <h1 style="color: #999999;text-align:center;" id="title">{{ page-title }}</h1>
+      <div class="fade">
+        <h6 style="color: #999999;text-align:center" id="author">{{ page-tagline }}</h6>
           <div class="fade">
           <h2 style="color: #999999;margin-left:20px;margin-right:20px;line-height:45px;" id="content">{{ content }}</h2>
             <div class="fade">
