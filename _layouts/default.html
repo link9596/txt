@@ -8,32 +8,6 @@
    <link rel="shortcut icon" type="image/x-icon" href="https://{{ site.url }}{{ site.baseurl }}/img/favicon.ico" media="screen"/>
  </head>
 
- <style>
-
-@-webkit-keyframes fade-in-down {
-  from {
-    opacity: 0;
-    -webkit-transform: translateY(30px);
-     }
-  to {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    }
-}
-
-.h1,.h2,.h3,.h4,.lead,body,h1,h2,h3,h4{
-  font-family:RobotoDraft,Roboto,"Helvetica Neue",Helvetica,"Segoe UI","Microsoft YaHei",arial,sans-serif;font-weight:300;
-}
-
-@media (min-width: 767px) {
-body{
- padding-left:200px;
- padding-right:200px;
- }
-}
-
- </style>
-
     {% if page.title %}
       {% assign page-title = page.title | escape %}
     {% else %}
@@ -70,20 +44,22 @@ body{
         {% endif %}
                     </h6>
           <div class="fade">
-          <h2 style="color: #999999;margin-left:20px;margin-right:20px;line-height:45px;" id="content">{{ content }}</h2>
+          <h2 class="default" id="content">{{ content }}</h2>
             <div class="fade">
-            <h6 style="color: #999999;text-align:center">每日一图.</h6>
-            <h6 style="margin-top:4px;padding:0 50px 0 50px;color: #cccccc;text-align:center" id="more"></h6>
-            <span style="text-align:center;display: block;"><a style="color: #999999;text-align:center;font-size: 20px;" id="more" href="/daily/wallpaper.html">更多图片</a></span>
+            {% if page.layout == 'post' %}
+            <h6 class="tags">标签:</h6>
+            {% endif %}
+            <h6 class="more"></h6>
+            <span class="span-center"><a class="footer-linkbig" id="more" href="/daily/wallpaper.html">更多图片</a></span>
             <span style="color:#999999;text-align:center;display: block;">
-             <a style="color: #999999;text-align:center;font-size: 12px;" href="http://linker.ml/daily/about.html">关于</a>
+             <a class="footer-link" href="http://linker.ml/daily/about.html">关于</a>
              |
-             <a style="color: #999999;text-align:center;font-size: 12px;" href="http://linker.ml/daily/ss.html">源</a>
+             <a class="footer-link" href="http://linker.ml/daily/ss.html">源</a>
              |
-             <a style="color: #999999;text-align:center;font-size: 12px;" href="http://linker.ml/daily/donate.html">捐赠</a>
+             <a class="footer-link" href="http://linker.ml/daily/donate.html">捐赠</a>
             </span>
              <h6 style="color: #999999;text-align:center">© 2018 Link, Funny.</h6>
-             <span style="color:#999999;font-size:10px;text-align:center;display: block;font-weight:bold;">Already <span style="text-align:center" id="sitetime"></span> days.</span>
+             <span class="sitetime">Already <span style="text-align:center" id="sitetime"></span> days.</span>
              </div>
            </div>
      </div>
