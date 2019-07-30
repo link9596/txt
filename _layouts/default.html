@@ -32,6 +32,7 @@
    <div class="fade">
       <h1 style="color: #999999;text-align:center;" id="title">{{ page-title }}</h1>
       <div class="fade">
+      {% comment %}
         <h6 style="color: #999999;text-align:center" id="author">
         {{ page-tagline }}
         {% if page.layout == 'post' %}
@@ -43,6 +44,7 @@
             {% endif %}
         {% endif %}
                     </h6>
+        {% endcomment %}
           <div class="fade">
           <h2 class="default-content" id="content">{{ content }}</h2>
             <div class="fade">
