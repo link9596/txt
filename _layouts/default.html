@@ -57,7 +57,17 @@ body{
    <div class="fade">
       <h1 style="color: #999999;text-align:center;" id="title">{{ page-title }}</h1>
       <div class="fade">
-        <h6 style="color: #999999;text-align:center" id="author">{{ page-tagline }}</h6>
+        <h6 style="color: #999999;text-align:center" id="author">
+        {{ page-tagline }}
+        {% if page.layout == 'post' %}
+            {% assign date_format = site.hydrogen-blog.date_format | default: "%b %-d, %Y" %}
+            {{ page.date | date: date_format }}
+            {% assign page_author = page.author | default: site.author | default: nil | escape %}
+            {% if page_author %}
+                •{{ page_author }}
+            {% endif %}
+        {% endif %}
+                    </h6>
           <div class="fade">
           <h2 style="color: #999999;margin-left:20px;margin-right:20px;line-height:45px;" id="content">{{ content }}</h2>
             <div class="fade">
