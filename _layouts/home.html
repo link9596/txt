@@ -34,7 +34,7 @@ layout: default
   <p style="margin-left:20px;margin-right:20px;line-height:25px;" id="content">
   <p><a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a></p>
     {% assign date_format = site.hydrogen-blog.date_format | default: "%b %-d, %Y" %}
-    <p style="margin-top:-20px"><span class="post-meta">{{ post.date | date: date_format }}{% include tags_list.html tags=page.tags tag_count=page.tags.size %}</span></p>
+    <p style="margin-top:-20px"><span class="post-meta">{{ post.date | date: date_format }}{% include tags_list.html tags=page.tags %}</span></p>
     <span class="post-more">{{ post.excerpt | markdownify | truncatewords: 30 }}</span>
   </p>
 </div>
