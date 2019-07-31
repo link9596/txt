@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 19:39:57
+* @Last Modified time: 2019-07-31 19:40:50
 */
 
 a{
@@ -445,7 +445,6 @@ padding: 20px;
 
 .h1,.h2,.h3,.h4,.lead,body,h1,h2,h3,h4{
   font-family:RobotoDraft,Roboto,"Helvetica Neue",Helvetica,"Segoe UI","Microsoft YaHei",arial,sans-serif;font-weight:300;
-  background: #efefef;
 }
 
 h1,h2,h3,h4{
