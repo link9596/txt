@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 13:06:59
+* @Last Modified time: 2019-07-31 13:10:32
 */
 
 a{
@@ -47,12 +47,14 @@ blockquote {
   float:left;
   width:33.33%;
   display:block;
+  margin-top: 5px;
 }
 .cm-r{
   float:right;
   width:33.33%;
   dispaly:block;
   text-align:right;
+  margin-top: 5px;
 }
 
 .post-p{
