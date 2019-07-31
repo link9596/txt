@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 23:30:33
+* @Last Modified time: 2019-07-31 23:45:22
 */
 
 a{
@@ -185,77 +185,40 @@ vertical-align:middle;
     width: auto;
 }
 
-.link-header {
-    position: relative;
-    height: 72px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 16px;
+.friends {
+    display: flex;
+    flex-wrap: wrap;
 }
-
-.link-header-avatar {
-    float: left;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
-.mdui-card-header-title {
-    display: block;
-    margin-left: 52px;
-    overflow: hidden;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    opacity: .87;
-}
-
-.mdui-card-header-subtitle {
-    display: block;
-    margin-left: 52px;
-    overflow: hidden;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    opacity: .54;
-}
-
-.link-col{
-    position: relative;
-    min-height: 1px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding-right: 8px;
-    padding-left: 8px;
-}
-
-.k-friend .link-card {
+.friends .a-friend {
+    display: flex;
+    margin: 10px 10px 0 0;
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: 300;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    transition: box-shadow 0.2s, transform 0.2s;
 }
-
-.link-card {
-    position: relative;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    overflow: hidden;
-    color: #000;
-    background-color: #fff;
-    border-radius: 2px;
-    -webkit-box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
-    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+.friends .a-friend:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
-
-.link-hoverable {
-    -webkit-transition: -webkit-box-shadow .25s cubic-bezier(.4,0,.2,1);
-    transition: -webkit-box-shadow .25s cubic-bezier(.4,0,.2,1);
-    transition: box-shadow .25s cubic-bezier(.4,0,.2,1);
-    transition: box-shadow .25s cubic-bezier(.4,0,.2,1),-webkit-box-shadow .25s cubic-bezier(.4,0,.2,1);
-    will-change: box-shadow;
+.friends .a-friend:active {
+    transform: scale(0.95);
+}
+.friends .a-friend .blog-avatar {
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.friends .a-friend .text-container {
+    margin-left: 10px;
+}
+.friends .a-friend .text-container .name {
+    font-size: 14px;
+}
+.friends .a-friend .text-container .description {
+    font-size: 12px;
+    margin-top: 5px;
 }
 
 .main-content table th, .main-content table td{
