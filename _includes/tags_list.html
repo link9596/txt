@@ -1,7 +1,7 @@
 {% if include.tag_count > 0 %}
-    {% if page.layout != 'post' %}| {% endif %}<img style="margin-bottom:-5px;width:20px" src="https://{{ site.url }}{{ site.baseurl }}/theme/tags.svg"><span style="color: #B0BEC5">标签：
+    {% if page.layout != 'post' %}| {% endif %}{% if page.layout == 'post' %}<div class="fade post-p">{% endif %}<img style="margin-bottom:-5px;width:20px" src="https://{{ site.url }}{{ site.baseurl }}/theme/tags.svg"><span style="color: #B0BEC5">标签：
     {% for tag in include.tags %}
     <a class="tag" style="color: #B0BEC5;font-weight:bold" href="{{site.baseurl}}/pages/tags#{{tag}}">#{{tag}}</a>
     {% endfor %}
-  </span>
+  </span>{% if page.layout == 'post' %}</div>{% endif %}
 {% endif %}

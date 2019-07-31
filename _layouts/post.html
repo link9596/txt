@@ -10,11 +10,7 @@ layout: default
     <span class="post-more">{{ content }}</span>
   </p>
 </div>
-{% for tag in include.tags %}
-{% tags=page.tags tag_count=page.tags.size %}
-{% if include.tag_count > 0 %}
-<div class="fade post-p">
+
+
+
 {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
-</div>
-{% endif %}
-{% endfor %}
