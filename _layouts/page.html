@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
-<div class="post-p">
-{{ content }}
+
+<div class="fade post-p">
+  <p style="margin-left:20px;margin-right:20px;line-height:25px;" id="content">
+  <p><a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ page.title | escape }}</a></p>
+    <span class="post-more">{{ content }}</span>
+  </p>
 </div>
