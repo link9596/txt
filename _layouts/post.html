@@ -13,7 +13,6 @@ layout: default
 
 {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
 
-{% if page.layout == 'post' or page.comment %}
 {% if site.data.social.valine_comment.enable  == true %}
   <script src="/comment/av-min.js"></script>
   <script src="/comment/Valine.min.js"></script>
@@ -21,4 +20,3 @@ layout: default
 {% include comments.html %}
 {% endif %}
 {% include scripts.html %}
-{% endif %}
