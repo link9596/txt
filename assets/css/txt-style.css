@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 10:19:34
+* @Last Modified time: 2019-07-31 10:31:23
 */
 
 a{
@@ -157,8 +157,8 @@ vertical-align:middle;
 
 //语法高亮
 
-.highlight table td { padding: 5px; }
-.highlight table pre { margin: 0; }
+.highlight table td {overflow: auto;-webkit-overflow-scrolling:touch; padding: 5px; }
+.highlight table pre {overflow: auto;-webkit-overflow-scrolling:touch; margin: 0; }
 .highlight .cm {
   color: #999988;
   font-style: italic;
@@ -396,6 +396,10 @@ vertical-align:middle;
 
 .h1,.h2,.h3,.h4,.lead,body,h1,h2,h3,h4{
   font-family:RobotoDraft,Roboto,"Helvetica Neue",Helvetica,"Segoe UI","Microsoft YaHei",arial,sans-serif;font-weight:300;
+}
+
+h1,h2,h3,h4{
+    color: #FF7043;
 }
 
 @media (min-width: 767px) {
