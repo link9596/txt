@@ -14,7 +14,8 @@ layout: default
 {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
 
 {% if site.data.social.valine_comment.enable  == true %}
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  <script src="https://hydrogen.atlinker.cn/comment/av-min.js"></script>
+  <script src="https://hydrogen.atlinker.cn/comment/Valine.min.js"></script>
 <div class="post-p"><div id="comments"></div></div>
 {% include comments.html %}
 {% endif %}
