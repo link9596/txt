@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 10:51:44
+* @Last Modified time: 2019-07-31 10:54:19
 */
 
 a{
@@ -157,7 +157,7 @@ vertical-align:middle;
 
 //语法高亮
 
-code{
+.highlighter-rouge{
     background: #999;
     color: #fff;
     border-radius: 5px;
@@ -166,7 +166,7 @@ code{
 }
 
 .highlight table td {
-margin: 0 -0.75em 0 -0.75em;overflow:scroll;-webkit-overflow-scrolling:touch; padding: 20px;
+padding: 20px;
 }
 .highlight table pre {overflow:scroll;-webkit-overflow-scrolling:touch; margin: 0; }
 .highlight .cm {
@@ -375,6 +375,9 @@ margin: 0 -0.75em 0 -0.75em;overflow:scroll;-webkit-overflow-scrolling:touch; pa
 }
 .highlight {
   background-color: #f8f8f8;
+  margin: 0 -0.75em 0 -0.75em;
+  overflow:scroll;
+  -webkit-overflow-scrolling:touch;
 }
 
 
