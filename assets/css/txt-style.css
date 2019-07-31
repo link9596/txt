@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 20:58:16
+* @Last Modified time: 2019-07-31 21:01:11
 */
 
 a{
@@ -68,6 +68,7 @@ blockquote {
     -webkit-transition: all .5s cubic-bezier(.4, 0, .2, 1), box-shadow .2s cubic-bezier(.4, 0, 1, 1);
     transition: all .5s cubic-bezier(.4, 0, .2, 1), box-shadow .2s cubic-bezier(.4, 0, 1, 1);
     margin: 0 -12px 35px -12px;
+    word-break: normal;
 }
 
 .post-p:hover{
@@ -191,7 +192,7 @@ vertical-align:middle;
 
 //语法高亮
 
-.default-content code {
+.post-more code {
     padding: 2px 4px;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 0.9rem;
