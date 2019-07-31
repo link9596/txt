@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 10:46:25
+* @Last Modified time: 2019-07-31 10:51:44
 */
 
 a{
@@ -156,6 +156,14 @@ vertical-align:middle;
 }
 
 //语法高亮
+
+code{
+    background: #999;
+    color: #fff;
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: 600;
+}
 
 .highlight table td {
 margin: 0 -0.75em 0 -0.75em;overflow:scroll;-webkit-overflow-scrolling:touch; padding: 20px;
