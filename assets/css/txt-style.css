@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 11:21:45
+* @Last Modified time: 2019-07-31 11:27:33
 */
 
 a{
@@ -21,6 +21,13 @@ table{
 table th,table td{
     padding: 0.5rem 1rem;
     border: 1px solid #e9ebec;
+}
+
+blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    color: #819198;
+    border-left: 0.3rem solid #dce6f0;
 }
 
 .cm-c{
