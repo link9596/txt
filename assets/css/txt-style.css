@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 21:41:18
+* @Last Modified time: 2019-07-31 21:43:43
 */
 
 a{
@@ -194,8 +194,8 @@ code {
     padding: 2px 4px;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 0.9rem;
-    color: #567482;
-    background-color: #f3f6fa;
+    color: #ffffff;
+    background-color: #bbbbbb;
     border-radius: 0.3rem;
 }
 
