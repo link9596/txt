@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 21:01:11
+* @Last Modified time: 2019-07-31 21:04:15
 */
 
 a{
@@ -192,7 +192,7 @@ vertical-align:middle;
 
 //语法高亮
 
-.post-more code {
+.post-p code {
     padding: 2px 4px;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 0.9rem;
