@@ -1,6 +1,6 @@
 {% if include.tag_count > 0 %}
     | <img style="width:20px" src="https://{{ site.url }}{{ site.baseurl }}/theme/tags.svg"><span style="color: #B0BEC5">标签：
-    {% for tag in post.tags %}
+    {% for tag in include.tags %}
     <a class="tag" style="color: #B0BEC5;font-weight:bold" href="{{site.baseurl}}/pages/tags#{{tag}}">#{{tag}}</a>
     {% endfor %}
   </span>
