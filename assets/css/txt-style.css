@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 21:51:28
+* @Last Modified time: 2019-07-31 22:26:54
 */
 
 a{
@@ -68,7 +68,7 @@ blockquote {
     -webkit-transition: all .5s cubic-bezier(.4, 0, .2, 1), box-shadow .2s cubic-bezier(.4, 0, 1, 1);
     transition: all .5s cubic-bezier(.4, 0, .2, 1), box-shadow .2s cubic-bezier(.4, 0, 1, 1);
     margin: 0 -12px 35px -12px;
-    word-break: normal;
+    word-break: break-all;
 }
 
 .post-p:hover{
