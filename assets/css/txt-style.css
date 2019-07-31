@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 11:14:28
+* @Last Modified time: 2019-07-31 11:17:06
 */
 
 a{
@@ -11,6 +11,11 @@ a{
 
 img{
     max-width:98%;
+}
+
+table th,table td{
+    padding: 0.5rem 1rem;
+    border: 1px solid #e9ebec;
 }
 
 .cm-c{
