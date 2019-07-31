@@ -21,12 +21,12 @@ tagline: （ • ̀ω•́ ） 这里竟然是标签哎！
     {% for post in site.tags[this_word] %}
       {% if post.title != null %}
         <div class="tagged-post">
-          <h3 class="title">
+          <h3 style="margin-bottom: -8px;" class="title">
             <a href="{{ post.url | relative_url }}">
               {{ post.title }}
             </a>
           </h3>
-          <div class="meta">
+          <div class="post-meta">
             {{ post.date | date: "%B %-d, %Y" }}
           </div>
         </div>
