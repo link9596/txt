@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 11:06:48
+* @Last Modified time: 2019-07-31 11:14:28
 */
 
 a{
@@ -153,6 +153,11 @@ vertical-align:middle;
 
 .emoji{
     width: auto;
+}
+
+.main-content table th, .main-content table td{
+    padding: 0.5rem 1rem;
+    border: 1px solid #e9ebec;
 }
 
 //语法高亮
@@ -376,6 +381,7 @@ padding: 20px;
 .highlight {
   background-color: #f8f8f8;
   //margin: 0 -0.75em 0 -0.75em;
+  font-size: 0.9rem;
   overflow-x:auto;
   -webkit-overflow-scrolling:touch;
   padding: 0 20px 0 20px;
