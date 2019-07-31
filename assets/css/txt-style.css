@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 21:22:39
+* @Last Modified time: 2019-07-31 21:24:40
 */
 
 a{
@@ -189,8 +189,6 @@ vertical-align:middle;
     padding: 0.5rem 1rem;
     border: 1px solid #e9ebec;
 }
-
-//语法高亮
 
 code {
     padding: 2px 4px;
