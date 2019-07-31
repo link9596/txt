@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 11:27:33
+* @Last Modified time: 2019-07-31 11:35:04
 */
 
 a{
@@ -13,7 +13,7 @@ img{
     max-width:98%;
 }
 
-table{
+.post-p table{
     overflow-x:auto;
     -webkit-overflow-scrolling:touch;
 }
