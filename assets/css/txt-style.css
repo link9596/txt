@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 11:04:58
+* @Last Modified time: 2019-07-31 11:06:48
 */
 
 a{
@@ -376,8 +376,9 @@ padding: 20px;
 .highlight {
   background-color: #f8f8f8;
   //margin: 0 -0.75em 0 -0.75em;
-  overflow-x:scroll;
+  overflow-x:auto;
   -webkit-overflow-scrolling:touch;
+  padding: 0 20px 0 20px;
 }
 
 
