@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 13:10:32
+* @Last Modified time: 2019-07-31 19:34:05
 */
 
 a{
@@ -455,5 +455,10 @@ h1,h2,h3,h4{
 body{
  padding-left:500px;
  padding-right:500px;
+ background-image: url(https://ooo.0o0.ooo/2017/06/14/5940a9b8e4c21.jpg);
+ background-size: cover;
+ background-position: 50% 50%;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
  }
 }
