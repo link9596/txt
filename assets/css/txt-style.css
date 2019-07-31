@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 11:20:06
+* @Last Modified time: 2019-07-31 11:21:45
 */
 
 a{
@@ -13,11 +13,14 @@ img{
     max-width:98%;
 }
 
+table{
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+}
+
 table th,table td{
     padding: 0.5rem 1rem;
     border: 1px solid #e9ebec;
-    overflow-x:auto;
-    -webkit-overflow-scrolling:touch;
 }
 
 .cm-c{
