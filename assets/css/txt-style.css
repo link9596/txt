@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 19:38:24
+* @Last Modified time: 2019-07-31 19:39:57
 */
 
 a{
@@ -461,5 +461,11 @@ body{
  background-position: 50% 50%;
  background-attachment: fixed;
  background-repeat: no-repeat;
+ }
+}
+
+@media (max-width: 767px) {
+body{
+  background: #efefef;
  }
 }
