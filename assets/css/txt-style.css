@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 19:40:50
+* @Last Modified time: 2019-07-31 20:58:16
 */
 
 a{
@@ -191,12 +191,13 @@ vertical-align:middle;
 
 //语法高亮
 
-.highlighter-rouge{
-    background: #999;
-    color: #fff;
-    border-radius: 5px;
-    padding: 3px;
-    font-weight: 600;
+.default-content code {
+    padding: 2px 4px;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 0.9rem;
+    color: #567482;
+    background-color: #f3f6fa;
+    border-radius: 0.3rem;
 }
 
 .highlight table td {
