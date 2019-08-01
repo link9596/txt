@@ -7,14 +7,9 @@ permalink: /links.html
 
 
 {% for f in site.data.friends %}
-<div class="friends">
-    <a class="a-friend" target="_blank" style="background-color:white;color:black" href="{{f.url}}">
-        <img class="blog-avatar" src="{{f.image}}">
-        <div class="text-container">
-            <div class="name">{{f.name}}</div>
-            <div class="description">{{f.describe}}</div>
-        </div>
-    </a>
+<div class="link-chip">
+ <img alt="{{f.describe}}" src="{{f.image}}" class="link-chip-icon">
+ <a title="{{f.describe}}" target="_blank" class="link-chip-title" href="{{f.url}}">{{f.name}}</a>
 </div>
 {% endfor %}
 
