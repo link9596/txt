@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-08-01 13:09:06
+* @Last Modified time: 2019-08-01 23:02:27
 */
 
 a{
@@ -59,7 +59,7 @@ blockquote {
 
 .post-p{
     font-size:15px;
-    background:#FFF;
+    background-color:rgba(255,255,255, .88);
     color:#999;
     padding:4px 15px;
     border-radius:6px;
