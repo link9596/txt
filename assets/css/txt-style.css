@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-07-31 23:45:22
+* @Last Modified time: 2019-08-01 11:45:34
 */
 
 a{
@@ -109,7 +109,7 @@ blockquote {
 color: #999999;
 margin-left:20px;
 margin-right:20px;
-line-height:45px;
+line-height:20px;
 }
 
 .tags{
