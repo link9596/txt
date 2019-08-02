@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-08-02 13:36:36
+* @Last Modified time: 2019-08-02 13:41:11
 */
 
 a{
@@ -479,7 +479,7 @@ h1,h2,h3,h4{
 body{
  padding-left:500px;
  padding-right:500px;
- background-image: url(/theme/1back-desktop.png);
+ background-image: url(/theme/1back-desktop-min.png);
  background-size: cover;
  background-position: 50% 50%;
  background-attachment: fixed;
@@ -490,7 +490,7 @@ body{
 @media (max-width: 767px) {
 body{
   background: #efefef;
-  background-image: url(/theme/1back.png);
+  background-image: url(/theme/1back-min.png);
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
