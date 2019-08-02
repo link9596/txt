@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-08-02 11:21:14
+* @Last Modified time: 2019-08-02 11:42:50
 */
 
 a{
@@ -490,5 +490,9 @@ body{
 @media (max-width: 767px) {
 body{
   background: #efefef;
+  background-image: url(/theme/1back.png);
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
  }
 }
