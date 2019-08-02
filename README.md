@@ -1,3 +1,3 @@
 # TxT theme for Jekyll
 
-![](/logo-txt.svg)
+![](/logo-txt.png)
