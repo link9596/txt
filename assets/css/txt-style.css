@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-08-01 23:02:27
+* @Last Modified time: 2019-08-02 10:51:28
 */
 
 a{
@@ -479,7 +479,7 @@ h1,h2,h3,h4{
 body{
  padding-left:500px;
  padding-right:500px;
- background-image: url(https://ooo.0o0.ooo/2017/06/14/5940a9b8e4c21.jpg);
+ background-image: url(/theme/back.png);
  background-size: cover;
  background-position: 50% 50%;
  background-attachment: fixed;
