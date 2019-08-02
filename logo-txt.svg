@@ -1,0 +1,19 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="402" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#56aaff" transform="matrix(0.9218236198954058,0,0,1.4507630393611066,16.242077615002017,-80.67341932221258) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Euphoria, sans-serif" font-size="147" id="svg_1" y="253.189292" x="21.5" stroke-width="5" fill="#56aaff">T    T</text>
+  <path transform="rotate(45 200,259.27310943603516)" id="svg_3" d="m159.305557,243.77311l81.388892,0l0,0c10.662176,0 19.305557,6.939588 19.305557,15.5c0,8.560409 -8.643385,15.499994 -19.305557,15.499994l-81.388892,0l0,0c-10.662164,0 -19.305557,-6.939585 -19.305557,-15.499994c0,-8.560415 8.643393,-15.5 19.305557,-15.5z" stroke-opacity="null" stroke-width="0" stroke="#56aaff" fill="#56aaff"/>
+  <path stroke="#56aaff" transform="rotate(-45 199.99999237060547,257.6581115722656)" id="svg_4" d="m159.199171,242.132994l81.60164,0l0,0c10.690047,0 19.356022,6.950838 19.356022,15.525126c0,8.574285 -8.665979,15.52512 -19.356022,15.52512l-81.60164,0l0,0c-10.690035,0 -19.356022,-6.950835 -19.356022,-15.52512c0,-8.574292 8.665987,-15.525126 19.356022,-15.525126z" stroke-opacity="null" stroke-width="0" fill="#56aaff"/>
+  <path id="svg_5" d="m38.525429,120.693113l79.354177,0l0,0c10.395623,0 18.82292,8.954311 18.82292,20.000007c0,11.045692 -8.427301,19.999999 -18.82292,19.999999l-79.354177,0l0,0c-10.395611,0 -18.82292,-8.954307 -18.82292,-19.999999c0,-11.0457 8.427309,-20.000007 18.82292,-20.000007z" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#56aaff" fill="#56aaff"/>
+  <path id="svg_6" d="m283.52543,121.000002l79.35418,0l0,0c10.39562,0 18.82292,8.95431 18.82292,20.00001c0,11.04569 -8.4273,20 -18.82292,20l-79.35418,0l0,0c-10.39561,0 -18.82292,-8.95431 -18.82292,-20c0,-11.0457 8.42731,-20.00001 18.82292,-20.00001z" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#56aaff" fill="#56aaff"/>
+ </g>
+</svg>
