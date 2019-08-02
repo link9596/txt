@@ -2,7 +2,7 @@
 * @Author: Link
 * @Date:   2019-07-30 20:07:05
 * @Last Modified by:   Marte
-* @Last Modified time: 2019-08-02 13:48:51
+* @Last Modified time: 2019-08-02 13:52:17
 */
 
 a{
@@ -16,6 +16,14 @@ img{
 table{
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+hr{
+    height: 2px;
+    padding: 0;
+    margin: 1rem 0;
+    background-color: #dddddd;
+    border: 0;
 }
 
 .post-p table{
