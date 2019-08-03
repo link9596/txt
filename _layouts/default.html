@@ -91,7 +91,7 @@ ajax()
         time = xhr.getResponseHeader("Date");
         console.log(xhr.getAllResponseHeaders())
         curDate = new Date(time);
-        document.getElementById("sitetime").innerHTML = (parseInt((((curDate.getTime() / 1000) - 1536768000 ) / 86400 )));
+        document.getElementById("sitetime").innerHTML = (parseInt((((curDate.getTime() / 1000) - {{ site.buildtime }} ) / 86400 )));
       }
     }
   }
