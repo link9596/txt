@@ -8,6 +8,8 @@
    <link rel="shortcut icon" type="image/x-icon" href="https://{{ site.url }}{{ site.baseurl }}/theme/ico.png" media="screen"/>
  </head>
 
+    {% include style.html %}
+
     {% if page.title %}
       {% assign page-title = page.title | escape %}
     {% else %}
@@ -36,7 +38,7 @@
         <h6 style="color: #999999;text-align:center" id="author">
         {{ page-tagline }}
         {% if page.layout == 'post' %}
-            {% assign date_format = site.hydrogen-blog.date_format | default: "%b %-d, %Y" %}
+            {% assign date_format = site.txt-blog.date_format | default: "%b %-d, %Y" %}
             {{ page.date | date: date_format }}
             {% assign page_author = page.author | default: site.author | default: nil | escape %}
             {% if page_author %}

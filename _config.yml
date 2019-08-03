@@ -1,5 +1,5 @@
 title: Link #博客标题
-description: Just 4 Fun. #博客描述
+description: 不要随便贬低自己. #博客描述
 keywords: blog,css,html,php #博客关键字
 author: "Link"
 
@@ -17,10 +17,11 @@ PJAX: true #启用PJAX，会与评论系统冲突（如不用评论系统建议�
 paginate: 8 #同时显示的最大文章数，超过自动分页
 paginate_path: "page:num"
 
-background: https://api.dujin.org/bing/1920.php
-theme_color: 546E7A
+background_desktop: /theme/1back-desktop-min.png #桌面版背景
+background: /theme/1back-min.png #移动版背景
+theme_color: F8BBD0
 
-hydrogen-blog:
+txt-blog:
   date_format: "%b %-d, %Y"
 
 #install emoji
