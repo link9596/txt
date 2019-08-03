@@ -7,14 +7,6 @@
 **她，就是TxT**
 
 ~~废话少说~~dalao~~快点一下Star!~~
-# Hydrogen
-轻盈、干净
-
-跟随她的脚步，开始你的博客之旅
-
-![hydrogen](/theme/logo-h.svg)
-
-~~点点~~Star~~来一个好吗！秋梨膏！！~~
 
 # #快速开始
 
